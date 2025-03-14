@@ -5,6 +5,29 @@
     <title></title>
   </head>
   <body>
-    <h1>aaa</h1>
+   <script src="spine-player.js"></script>
+<link rel="stylesheet" href="spine-player.css">
+
+<div id="ank" style="width: 800px; height: 2000px;transform:scale(-1.3,1.3);position: absolute;top: -1000px;left: -200px;z-index:1;"></div>
+<div id="gsn" style="width: 800px; height: 2000px;transform:scale(1.3,1.3);position: absolute;top: -1000px;left: 300px;z-index:0;"></div>
+
+<script>
+new spine.SpinePlayer("ank", {
+jsonUrl: "https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch_obs02_ank_Base.json",
+atlasUrl: "https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch_obs02_ank_Base.atlas",
+alpha: true,
+backgroundColor: "#00000000",
+animation: "ank_idle"
+});
+
+new spine.SpinePlayer("gsn", {
+jsonUrl: "https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch_obs01_gsn_Base.json",
+atlasUrl: "https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch_obs01_gsn_Base.atlas",
+alpha: true,
+backgroundColor: "#00000000",
+animation: "gsn_idle"
+});
+
+</script>
   </body>
 </html>
