@@ -14,8 +14,8 @@ background-color: black;
 }
 
 :root{
-    --total-x: 200px;
-    --total-y: 200px;
+    --total-x: 240px;
+    --total-y: 710px;
 }
 .gch09{
     position:absolute;
@@ -202,13 +202,10 @@ background-color: black;
   <div class="c4"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/r0.png" height="300px" width="300px"/></div>
   <div class="c0"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch06.png" height="1200px" width="37px"/></div>
 
-
-    left:calc(var(--total-x) - 30px);
-    top:calc(var(--total-y) + 130px);
 <script src="spine-player.js"></script>
 <link rel="stylesheet" href="spine-player.css">
-<div id="ank" style="width: 800px;height: 2000px;transform:scale(-0.8,0.8);position: absolute;top: -380px;left: calc(var(--total-x) - 140px);z-index:2;"></div>
-<div id="gsn" style="width: 800px;height: 2000px;transform:scale(0.8,0.8);position: absolute;top: -380px;left: calc(var(--total-x) + 380px);z-index:2;"></div>
+<div id="ank" style="width: 800px;height: 1800px;transform:scale(-0.8,0.8);position: absolute;top:calc(var(--total-y) - 480px);left: calc(var(--total-x) - 140px);z-index:2;"></div>
+<div id="gsn" style="width: 800px;height: 1800px;transform:scale(0.8,0.8);position: absolute;top:calc(var(--total-y) - 480px);left: calc(var(--total-x) + 380px);z-index:2;"></div>
 <script>
 new spine.SpinePlayer("ank", {
 jsonUrl: "https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch_obs02_ank_Base.json",
