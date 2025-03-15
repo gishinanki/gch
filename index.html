@@ -12,10 +12,7 @@ background-color: black;
   background-attachment: fixed;
   background-size: 100% auto;
 }
-.none {
-        user-select: none;
-        pointer-events: none;
-      }
+
 :root{
     --total-x: 240px;
     --total-y: 710px;
@@ -23,46 +20,46 @@ background-color: black;
 .gch09{
     position:absolute;
     left:calc(var(--total-x) - 102px);
-    top:calc(var(--total-y) + 1150px);
+    top:calc(var(--total-y) + 1260px);
     z-index:1;
     transform-origin:50% 100%;
-    transform: scale(1,1);
+    transform: scale(1,0.9);
 }
 
 .gch05{
     position:absolute;
     left:calc(var(--total-x) + 72px);
-    top:calc(var(--total-y) + 0px);
+    top:calc(var(--total-y) + 120px);
     z-index:10;
     transform-origin:50% 0%;
-    transform: scale(1,1);
+    transform: scale(1.15,1.15);
 }
 
 .gch04{
     position:absolute;
-    left:calc(var(--total-x) + 0px);
-    top:calc(var(--total-y) + 150px);
+    left:calc(var(--total-x) + 5px);
+    top:calc(var(--total-y) + 340px);
     z-index:9;
     transform-origin:100% 0%;
-    transform: scale(1,1);
+    transform: scale(1,0.9);
 }
 
 .gch03{
     position:absolute;
-    left:calc(var(--total-x) + 0px);
-    top:calc(var(--total-y) + 150px);
+    left:calc(var(--total-x) - 5px);
+    top:calc(var(--total-y) + 340px);
     z-index:9;
     transform-origin:100% 0%;
-    transform: scale(-1,1);
+    transform: scale(-1,0.9);
 }
 
 .gch01{
     position:absolute;
     left:calc(var(--total-x) + 137px);
-    top:calc(var(--total-y) - 200px);
+    top:calc(var(--total-y) - 630px);
     z-index:0;
-    transform-origin:50% 50%;
-    transform: scale(2,2);
+    transform-origin:50% 0%;
+    transform: scale(2.1,2.1);
 }
 
 
@@ -70,8 +67,8 @@ background-color: black;
     position:absolute;
     height:300px;
     width:300px;
-    left:calc(var(--total-x) + 800px);
-    top:calc(var(--total-y) + 120px);
+    left:calc(var(--total-x) + 755px);
+    top:calc(var(--total-y) + 250px);
     z-index:20;
     animation-name: clockRotate2;
     animation-iteration-count: infinite;
@@ -83,8 +80,8 @@ background-color: black;
     position:absolute;
     height:200px;
     width:200px;
-    left:calc(var(--total-x) + 750px);
-    top:calc(var(--total-y) + 160px);
+    left:calc(var(--total-x) + 710px);
+    top:calc(var(--total-y) + 280px);
     z-index:19;
     animation-name: clockRotate;
     animation-iteration-count: infinite;
@@ -93,11 +90,11 @@ background-color: black;
   }
 
   .c2 {
-    height:200px;
-    width:200px;
+    height:170px;
+    width:170px;
     position:absolute;
-    left:calc(var(--total-x) + 100px);
-    top:calc(var(--total-y) + 120px);
+    left:calc(var(--total-x) + 110px);
+    top:calc(var(--total-y) + 280px);
     z-index:17;
     animation: rotate 24s steps(24) infinite;
     -webkit-animation: rotate 24s steps(24) infinite;
@@ -106,8 +103,8 @@ background-color: black;
     position:absolute;
     height:300px;
      width:300px;
-    left:calc(var(--total-x) + 40px);
-    top:calc(var(--total-y) - 50px);
+    left:calc(var(--total-x) - 5px);
+    top:calc(var(--total-y) + 105px);
     z-index:16;
     animation-name: clockRotate;
     animation-iteration-count: infinite;
@@ -119,8 +116,8 @@ background-color: black;
     position:absolute;
     height:300px;
      width:300px;
-    left:calc(var(--total-x) - 30px);
-    top:calc(var(--total-y) + 130px);
+    left:calc(var(--total-x) - 67px);
+    top:calc(var(--total-y) + 280px);
     z-index:18;
     animation-name: clockRotate;
     animation-iteration-count: infinite;
@@ -128,12 +125,10 @@ background-color: black;
     animation-duration: 20s;
   }
 
-
-
   .c0 {
     position:absolute;
     left:calc(var(--total-x) + 502px);
-    top:calc(var(--total-y) - 250px);
+    top:calc(var(--total-y) - 76px);
     animation-name: swing;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -192,7 +187,6 @@ background-color: black;
 100%{-webkit-transform: rotate(0deg);}}
 
 </style>
-<img src="image.jpg" id="none" onmousedown="return false;" contextmenu="return false;">
 <div class="gch01"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch01.png" width="774px"height="1022px"/></div>
 <div class="gch05"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch05.png" width="897px"height="391px"/></div>
 <div class="gch04"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch04.png" width="523px"height="908px"/></div>
@@ -200,7 +194,7 @@ background-color: black;
 <div class="gch09"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch09.png" width="1260px"height="482px"/></div>
 
   <div class="c1"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/l0.png" height="300px" width="300px"/></div>
-  <div class="c2"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/l1.png" height="200px" width="200px" /></div>
+  <div class="c2"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/l1.png" height="170px" width="170px" /></div>
   <div class="c3"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/l2.png" height="300px" width="300px"/></div>
   <div class="c5"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/r1.png" height="200px" width="200px"/></div>
   <div class="c4"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/r0.png" height="300px" width="300px"/></div>
@@ -208,8 +202,8 @@ background-color: black;
 
 <script src="spine-player.js"></script>
 <link rel="stylesheet" href="spine-player.css">
-<div id="ank" style="width: 800px;height: 1800px;transform:scale(-0.8,0.8);position: absolute;top:calc(var(--total-y) - 480px);left: calc(var(--total-x) - 140px);z-index:2;"></div>
-<div id="gsn" style="width: 800px;height: 1800px;transform:scale(0.8,0.8);position: absolute;top:calc(var(--total-y) - 480px);left: calc(var(--total-x) + 380px);z-index:2;"></div>
+<div id="ank" style="width: 800px;height: 1800px;transform:scale(-0.9,0.9);position: absolute;top:calc(var(--total-y) - 320px);left: calc(var(--total-x) - 140px);z-index:2;"></div>
+<div id="gsn" style="width: 800px;height: 1800px;transform:scale(0.9,0.9);position: absolute;top:calc(var(--total-y) - 320px);left: calc(var(--total-x) + 380px);z-index:2;"></div>
 <script>
 new spine.SpinePlayer("ank", {
 jsonUrl: "https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch_obs02_ank_Base.json",
