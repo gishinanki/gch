@@ -12,12 +12,9 @@ background-color: black;
   background-attachment: fixed;
   background-size: 100% auto;
 }
-      .unselectable {
-        -webkit-user-select: none;
-        -webkit-touch-callout: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
+      #none {
         user-select: none;
+        pointer-events: none;
       }
 :root{
     --total-x: 240px;
@@ -195,6 +192,7 @@ background-color: black;
 100%{-webkit-transform: rotate(0deg);}}
 
 </style>
+<img src="image.jpg" id="none" onmousedown="return false;" contextmenu="return false;">
 <div class="gch01"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch01.png" width="774px"height="1022px"/></div>
 <div class="gch05"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch05.png" width="897px"height="391px"/></div>
 <div class="gch04"><img src="https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch04.png" width="523px"height="908px"/></div>
