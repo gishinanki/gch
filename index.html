@@ -226,11 +226,14 @@ background-color: black;
 <div id="gsn" style="width: 800px;height: 1800px;transform:scale(0.9,0.9);position: absolute;top:calc(var(--total-y) - 320px);left: calc(var(--total-x) + 380px);z-index:2;"></div>
 <script>
 new spine.SpinePlayer("ank", {
-jsonUrl: "https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch_obs02_ank_Base.json",
-atlasUrl: "https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch_obs02_ank_Base.atlas",
+//jsonUrl: "https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch_obs02_ank_Base.json",
+//atlasUrl: "https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch_obs02_ank_Base.atlas",
+//animation: "ank_idle",
+jsonUrl: "https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch_obs02_ank.json",
+atlasUrl: "https://raw.githubusercontent.com/gishinanki/sinoalice/refs/heads/main/gch_obs02_ank.atlas",
+animation: "ank_fallhead_idle",
 alpha: true,
 backgroundColor: "#00000000",
-animation: "ank_idle",
 showControls: false
 });
 
