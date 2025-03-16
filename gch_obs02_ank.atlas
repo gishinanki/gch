@@ -1,307 +1,300 @@
 
-gch_obs02_ank.png
+gch_obs02_ank_Base.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 BackHair01
   rotate: false
-  xy: 2, 512
-  size: 469, 508
-  orig: 469, 508
-  offset: 0, 0
-  index: -1
-BackHair02
-  rotate: false
-  xy: 780, 785
-  size: 235, 235
-  orig: 235, 235
+  xy: 2, 527
+  size: 457, 495
+  orig: 457, 495
   offset: 0, 0
   index: -1
 Body
   rotate: true
-  xy: 473, 517
-  size: 196, 235
-  orig: 196, 235
+  xy: 461, 532
+  size: 191, 229
+  orig: 191, 229
   offset: 0, 0
   index: -1
 EyeClose
-  rotate: true
-  xy: 958, 665
-  size: 118, 40
-  orig: 118, 40
+  rotate: false
+  xy: 426, 312
+  size: 115, 39
+  orig: 115, 39
   offset: 0, 0
   index: -1
 EyeHalfClose
   rotate: false
-  xy: 200, 5
-  size: 118, 40
-  orig: 118, 40
+  xy: 195, 32
+  size: 115, 39
+  orig: 115, 39
   offset: 0, 0
   index: -1
 EyeOpen
   rotate: false
-  xy: 437, 292
-  size: 118, 40
-  orig: 118, 40
+  xy: 350, 70
+  size: 115, 39
+  orig: 115, 39
   offset: 0, 0
   index: -1
 EyeWhite
-  rotate: false
-  xy: 699, 124
-  size: 118, 40
-  orig: 118, 40
+  rotate: true
+  xy: 983, 752
+  size: 115, 39
+  orig: 115, 39
   offset: 0, 0
   index: -1
 Eyelash
   rotate: false
-  xy: 320, 13
-  size: 118, 32
-  orig: 118, 32
+  xy: 660, 266
+  size: 115, 31
+  orig: 115, 31
   offset: 0, 0
   index: -1
 Face
-  rotate: false
-  xy: 557, 350
-  size: 145, 165
-  orig: 145, 165
+  rotate: true
+  xy: 760, 669
+  size: 141, 160
+  orig: 141, 160
   offset: 0, 0
   index: -1
 Head
   rotate: false
-  xy: 200, 264
-  size: 235, 246
-  orig: 235, 246
+  xy: 195, 285
+  size: 229, 240
+  orig: 229, 240
   offset: 0, 0
   index: -1
 HeadParts
   rotate: false
-  xy: 473, 715
-  size: 305, 305
-  orig: 305, 305
+  xy: 461, 725
+  size: 297, 297
+  orig: 297, 297
   offset: 0, 0
   index: -1
 HipBack
   rotate: true
-  xy: 888, 506
-  size: 157, 118
-  orig: 157, 118
+  xy: 866, 514
+  size: 153, 115
+  orig: 153, 115
   offset: 0, 0
   index: -1
 HipFront
-  rotate: true
-  xy: 882, 347
-  size: 157, 118
-  orig: 157, 118
+  rotate: false
+  xy: 660, 397
+  size: 153, 115
+  orig: 153, 115
   offset: 0, 0
   index: -1
 LeftArm
   rotate: true
-  xy: 557, 269
-  size: 79, 118
-  orig: 79, 118
+  xy: 543, 279
+  size: 77, 115
+  orig: 77, 115
   offset: 0, 0
   index: -1
 LeftArmJoint
   rotate: false
-  xy: 946, 86
-  size: 32, 32
-  orig: 32, 32
+  xy: 312, 40
+  size: 31, 31
+  orig: 31, 31
   offset: 0, 0
   index: -1
 LeftEar
-  rotate: true
-  xy: 710, 673
-  size: 40, 51
-  orig: 40, 51
+  rotate: false
+  xy: 692, 673
+  size: 39, 50
+  orig: 39, 50
   offset: 0, 0
   index: -1
 LeftEyePupil
   rotate: false
-  xy: 486, 17
-  size: 28, 28
-  orig: 28, 28
+  xy: 512, 283
+  size: 27, 27
+  orig: 27, 27
   offset: 0, 0
   index: -1
 LeftFoot
   rotate: true
-  xy: 518, 29
-  size: 79, 98
-  orig: 79, 98
+  xy: 467, 83
+  size: 77, 96
+  orig: 77, 96
   offset: 0, 0
   index: -1
 LeftForeArm
-  rotate: false
-  xy: 618, 149
-  size: 79, 118
-  orig: 79, 118
+  rotate: true
+  xy: 815, 337
+  size: 77, 115
+  orig: 77, 115
   offset: 0, 0
   index: -1
 LeftHairSide
   rotate: false
-  xy: 200, 47
-  size: 157, 215
-  orig: 157, 215
+  xy: 760, 812
+  size: 153, 210
+  orig: 153, 210
   offset: 0, 0
   index: -1
 LeftHand
   rotate: false
-  xy: 699, 43
-  size: 79, 79
-  orig: 79, 79
+  xy: 704, 187
+  size: 77, 77
+  orig: 77, 77
   offset: 0, 0
   index: -1
 LeftLeg
-  rotate: true
-  xy: 704, 286
-  size: 98, 157
-  orig: 98, 157
+  rotate: false
+  xy: 915, 869
+  size: 96, 153
+  orig: 96, 153
   offset: 0, 0
   index: -1
 LeftUpLeg
-  rotate: true
-  xy: 780, 665
-  size: 118, 176
-  orig: 118, 176
+  rotate: false
+  xy: 350, 111
+  size: 115, 172
+  orig: 115, 172
   offset: 0, 0
   index: -1
 MouthClose
   rotate: false
-  xy: 900, 124
-  size: 44, 40
-  orig: 44, 40
+  xy: 915, 828
+  size: 43, 39
+  orig: 43, 39
   offset: 0, 0
   index: -1
 MouthHalfOpen
-  rotate: false
-  xy: 900, 82
-  size: 44, 40
-  orig: 44, 40
+  rotate: true
+  xy: 983, 707
+  size: 43, 39
+  orig: 43, 39
   offset: 0, 0
   index: -1
 MouthOpen
   rotate: true
-  xy: 946, 120
-  size: 44, 40
-  orig: 44, 40
+  xy: 983, 662
+  size: 43, 39
+  orig: 43, 39
   offset: 0, 0
   index: -1
 MouthTooth
-  rotate: false
-  xy: 440, 5
-  size: 44, 40
-  orig: 44, 40
+  rotate: true
+  xy: 983, 617
+  size: 43, 39
+  orig: 43, 39
   offset: 0, 0
   index: -1
 NeckRibbon
   rotate: false
-  xy: 863, 247
-  size: 137, 98
-  orig: 137, 98
+  xy: 660, 299
+  size: 134, 96
+  orig: 134, 96
   offset: 0, 0
   index: -1
 RightArm
-  rotate: false
-  xy: 699, 166
-  size: 79, 118
-  orig: 79, 118
+  rotate: true
+  xy: 796, 258
+  size: 77, 115
+  orig: 77, 115
   offset: 0, 0
   index: -1
 RightArmJoint
   rotate: false
-  xy: 780, 44
-  size: 32, 32
-  orig: 32, 32
+  xy: 932, 383
+  size: 31, 31
+  orig: 31, 31
   offset: 0, 0
   index: -1
 RightEar
-  rotate: false
-  xy: 780, 78
-  size: 32, 44
-  orig: 32, 44
+  rotate: true
+  xy: 467, 279
+  size: 31, 43
+  orig: 31, 43
   offset: 0, 0
   index: -1
 RightEyePupil
   rotate: false
-  xy: 814, 55
-  size: 28, 28
-  orig: 28, 28
+  xy: 983, 588
+  size: 27, 27
+  orig: 27, 27
   offset: 0, 0
   index: -1
 RightFoot
   rotate: false
-  xy: 618, 49
-  size: 79, 98
-  orig: 79, 98
+  xy: 625, 168
+  size: 77, 96
+  orig: 77, 96
   offset: 0, 0
   index: -1
 RightForeArm
   rotate: false
-  xy: 780, 166
-  size: 79, 118
-  orig: 79, 118
+  xy: 467, 162
+  size: 77, 115
+  orig: 77, 115
   offset: 0, 0
   index: -1
 RightForeArmRibbon
-  rotate: true
-  xy: 861, 166
-  size: 79, 118
-  orig: 79, 118
+  rotate: false
+  xy: 546, 162
+  size: 77, 115
+  orig: 77, 115
   offset: 0, 0
   index: -1
 RightHand
   rotate: false
-  xy: 819, 85
-  size: 79, 79
-  orig: 79, 79
+  xy: 565, 83
+  size: 77, 77
+  orig: 77, 77
   offset: 0, 0
   index: -1
 RightHariSide
   rotate: false
-  xy: 359, 47
-  size: 157, 215
-  orig: 157, 215
+  xy: 195, 73
+  size: 153, 210
+  orig: 153, 210
   offset: 0, 0
   index: -1
 RightLeg
-  rotate: false
-  xy: 518, 110
-  size: 98, 157
-  orig: 98, 157
+  rotate: true
+  xy: 815, 416
+  size: 96, 153
+  orig: 96, 153
   offset: 0, 0
   index: -1
 RightUpLeg
   rotate: false
-  xy: 437, 334
-  size: 118, 176
-  orig: 118, 176
+  xy: 426, 353
+  size: 115, 172
+  orig: 115, 172
   offset: 0, 0
   index: -1
 RightUpLegRibbon
-  rotate: true
-  xy: 704, 386
-  size: 118, 176
-  orig: 118, 176
+  rotate: false
+  xy: 543, 358
+  size: 115, 172
+  orig: 115, 172
   offset: 0, 0
   index: -1
 Thread
-  rotate: true
-  xy: 710, 665
+  rotate: false
+  xy: 2, 16
   size: 6, 12
   orig: 6, 12
   offset: 0, 0
   index: -1
 Weapon
   rotate: true
-  xy: 710, 506
-  size: 157, 176
-  orig: 157, 176
+  xy: 692, 514
+  size: 153, 172
+  orig: 153, 172
   offset: 0, 0
   index: -1
 Wing
   rotate: false
-  xy: 2, 2
-  size: 196, 508
-  orig: 196, 508
+  xy: 2, 30
+  size: 191, 495
+  orig: 191, 495
   offset: 0, 0
   index: -1
