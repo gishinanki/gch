@@ -1,0 +1,267 @@
+<style>
+
+body{
+margin:0px;
+padding:0px;
+overflow: hidden;
+}        
+
+:root{
+    --total-x: 450px;
+    --total-y: 1000px;
+}
+
+.s2a {
+    position:absolute;
+    top:736px;
+    left:1125px;
+    left:calc(var(--total-x) + 0px);
+    top:calc(var(--total-y) + 0px);
+z-index:10;
+transform-origin:0% 100%;
+transform: scale(2.7,1.9);
+  }
+.s2b {
+    position:absolute;
+    left:calc(var(--total-x) + 0px);
+    top:calc(var(--total-y) + 0px);
+z-index:10;
+transform-origin:0% 100%;
+transform: scale(-2.7,1.9);
+  }
+.s3a {
+    position:absolute;
+    left:calc(var(--total-x) + 0px);
+    top:calc(var(--total-y) + 560px);
+z-index:10;
+transform-origin:0% 0%;
+transform: scale(2.7,1.6);
+  }
+.s3b {
+    position:absolute;
+    left:calc(var(--total-x) + 0px);
+    top:calc(var(--total-y) + 560px);
+z-index:10;
+transform-origin:0% 0%;
+transform: scale(-2.7,1.6);
+  }
+ @keyframes clockRotate
+{
+ 0% { transform: rotate(360deg);}
+ 100% { transform: rotate(0deg);}
+ }
+ @keyframes clockRotateB
+{
+ 0% { transform: rotate(0deg);}
+ 100% { transform: rotate(360deg);}
+ }
+.s4a {
+    position:absolute;
+    left:calc(var(--total-x) + 0px);
+    top:calc(var(--total-y) - 500px);
+z-index:0;
+transform-origin:0% 100%;
+transform: scale(4.4,4.4);
+  }
+.s4b {
+    position:absolute;
+    left:calc(var(--total-x) + 0px);
+    top:calc(var(--total-y) - 500px);
+z-index:0;
+transform-origin:0% 100%;
+transform: scale(-4.4,4.4);
+  }
+
+
+.s5 {
+    position:absolute;
+    left:calc(var(--total-x) + 270px);
+    top:calc(var(--total-y) - 1070px);
+transform-origin:50% 50%;
+z-index:8;
+    animation-name: clockRotateB;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 240s;
+  }
+
+.s5b {
+    position:absolute;
+    left:calc(var(--total-x) - 1015px);
+    top:calc(var(--total-y) - 1215px);
+transform-origin:50% 50%;
+z-index:8;
+    animation-name: clockRotateB;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 180s;
+  }
+.s5c {
+    position:absolute;
+    top:150px;
+    left:-110px;
+    left:calc(var(--total-x) - 1470px);
+    top:calc(var(--total-y) - 820px);
+z-index:8;
+    animation-name: clockRotateB;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 180s;
+  }
+.s6a {
+    position:absolute;
+    left:calc(var(--total-x) - 495px);
+    top:calc(var(--total-y) - 655px);
+transform-origin:50% 50%;
+z-index:6;
+    animation-name: clockRotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 30s;
+  }
+.s6b {
+    position:absolute;
+    left:calc(var(--total-x) + 800px);
+    top:calc(var(--total-y) - 620px);
+transform-origin:50% 50%;
+z-index:6;
+    animation-name: clockRotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 120s;
+  }
+.s9 {
+    position:absolute;
+    left:calc(var(--total-x) + 560px);
+    top:calc(var(--total-y) - 930px);
+z-index:10;
+transform-origin:50% 80%;
+    animation-name: clockRotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 60s;
+  }
+.s8 {
+    position:absolute;
+    left:calc(var(--total-x) - 355px);
+    top:calc(var(--total-y) - 350px);
+z-index:6;
+transform-origin:50% 50%;
+    animation-name: clockRotateC;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 30s;
+  }
+
+@keyframes clockRotateC{
+  0%{
+    transform: rotate(360deg) translateX(170px) rotate(-360deg) rotate(-95deg);
+  }
+  100%{
+    transform: rotate(0deg) translateX(170px) rotate(-0deg) rotate(-180deg);
+  }
+}
+
+
+.s7 {
+    position:absolute;
+    left:calc(var(--total-x) - 150px);
+    top:calc(var(--total-y) - 830px);
+    transform-origin:50% 50%;
+    z-index:5;
+    animation-name: clockRotateB;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 180s;
+  }
+
+.c1 {
+    position:absolute;
+    left:calc(var(--total-x) - 450px);
+    top:calc(var(--total-y) - 500px);
+mask-mode: alpha;
+z-index:1;
+transform: scale(3,3);
+    animation-name: cloud;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+  }
+@keyframes cloud{
+  0%{
+    transform: translateX(1000px) translateY(-1000px) ;
+opacity:0;
+  }
+  50%{
+opacity:0.3;
+  }
+  100%{
+    transform: translateX(-1000px) translateY(1000px);
+opacity:0;
+  }
+}
+
+.c2 {
+    position:absolute;
+    left:calc(var(--total-x) - 150px);
+    top:calc(var(--total-y) - 400px);
+mask-mode: alpha;
+z-index:1;
+transform: scale(3,3);
+    animation-name: cloudB;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+  }
+@keyframes cloudB{
+  0%{
+    transform: translateX(-1000px) translateY(1000px) ;
+opacity:0;
+  }
+  50%{
+opacity:0.3;
+  }
+  100%{
+    transform: translateX(1000px) translateY(-1000px);
+opacity:0;
+  }
+}
+
+.r1 {
+    position:absolute;
+    left:calc(var(--total-x) - 4050px);
+    top:calc(var(--total-y) - 1000px);
+z-index:3;
+transform-origin:50% 0%;
+transform: scale(1.38,1.38);
+  }
+.r2 {
+    position:absolute;
+    left:calc(var(--total-x) - 3800px);
+    top:calc(var(--total-y) - 1010px);
+z-index:2;
+transform-origin:50% 0%;
+transform: scale(2.5,2.5);
+  }
+
+</style>
+  <div class="s2a"><img src="sprite002.png"  height=560px width=1024px/></div>
+  <div class="s2b"><img src="sprite002.png"  height=560px width=1024px/></div>
+  <div class="s3a"><img src="sprite003.png"  height=198px width=1024px/></div>
+  <div class="s3b"><img src="sprite003.png"  height=198px width=1024px/></div>
+  <div class="s4a"><img src="sprite004.png"  height=250px width=437px/></div>
+  <div class="s4b"><img src="sprite004.png"  height=250px width=437px/></div>
+  <div class="s5"><img src="sprite005.png"  height=670px width=670px/></div>
+  <div class="s5b"><img src="sprite005.png"  height=675px width=675px/></div>
+  <div class="s5c"><img src="sprite005.png"  height=520px width=520px/></div>
+  <div class="s6a"><img src="sprite006.png"  height=490px width=490px/></div>
+  <div class="s6b"><img src="sprite006.png"  height=490px width=490px/></div>
+  <div class="s7"><img src="sprite007.png"  height=690px width=690px/></div>
+  <div class="s8"><img src="sprite008.png"  height=45px width=300px/></div>
+  <div class="s9"><img src="sprite009.png"  height=250px width=90px/></div>
+  <div class="c1"><img src="texture001.png"  height=512px width=512px/></div>
+  <div class="c2"><img src="texture001.png"  height=512px width=512px/></div>
+
+  <div class="r1"><img src="revival001.png"  height=1334px width=1001px/></div>
+  <div class="r2"><img src="revival002.png"  height=320px width=501px/></div>
+
